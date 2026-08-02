@@ -1,0 +1,4 @@
+sim/dump.vcd
+sim/alu_sim
+sim/run
+*.vcd
