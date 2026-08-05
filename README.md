@@ -53,6 +53,30 @@ This 8-bit ALU supports 8 operations selected by a 3-bit op code.
 
 ---
 
+## Resource Utilization (Yosys 0.52, generic synthesis)
+
+| Metric        | Value |
+|---------------|-------|
+| Total cells   | 248   |
+| Wires         | 244   |
+| Inputs        | 19 bits |
+| Outputs       | 11 bits |
+
+| Cell Type  | Count |
+|------------|-------|
+| $_ANDNOT_  | 96    |
+| $_OR_      | 68    |
+| $_NOR_     | 26    |
+| $_XOR_     | 12    |
+| $_XNOR_   | 10    |
+| $_ORNOT_   | 9     |
+| $_MUX_     | 8     |
+| $_AND_     | 7     |
+| $_NOT_     | 6     |
+| $_NAND_    | 6     |
+
+---
+
 ## Project Structure
 ├── rtl/
 │ └── alu.v # ALU design — combinational logic
