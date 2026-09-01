@@ -117,4 +117,4 @@ gtkwave sim/dump.vcd
 Second year EEE student at IIITM Gwalior.
 Targeting GPU and AI accelerator chip design.
 
-Tools used: Verilog HDL, Icarus Verilog, GTKWave, VS Code, WSL2
+Tools used: Verilog HDL, Icarus Verilog, GTKWave, Yosys, VS Code, WSL2
