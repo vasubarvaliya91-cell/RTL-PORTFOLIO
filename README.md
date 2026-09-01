@@ -115,6 +115,22 @@ FSM-based UART transmitter. Takes an 8-bit parallel byte and sends it serially o
 | Total cells | 133   |
 | Flip Flops  | 21    |
 
+| Cell Type      | Count |
+|----------------|-------|
+| $_ANDNOT_      | 32    |
+| $_OR_          | 25    |
+| $_ORNOT_       | 11    |
+| $_NAND_        | 10    |
+| $_MUX_         | 10    |
+| $_DFF_PN0_     | 15    |
+| $_DFFE_PN0P_   | 5     |
+| $_XOR_         | 10    |
+| $_XNOR_        | 5     |
+| $_AND_         | 3     |
+| $_NOR_         | 3     |
+| $_NOT_         | 3     |
+| $_DFF_PN1_     | 1     |
+
 ### How to Simulate
 
 ```bash
@@ -153,6 +169,22 @@ FSM-based UART receiver. Reads incoming serial bits and reconstructs the 8-bit b
 |-------------|-------|
 | Total cells | 276   |
 | Flip Flops  | 28    |
+
+| Cell Type      | Count |
+|----------------|-------|
+| $_ANDNOT_      | 87    |
+| $_OR_          | 75    |
+| $_ORNOT_       | 28    |
+| $_NAND_        | 21    |
+| $_DFF_PN0_     | 15    |
+| $_XOR_         | 14    |
+| $_DFFE_PN0N_   | 8     |
+| $_DFFE_PN0P_   | 5     |
+| $_NOR_         | 7     |
+| $_NOT_         | 6     |
+| $_AND_         | 4     |
+| $_XNOR_        | 3     |
+| $_MUX_         | 3     |
 
 ### How to Simulate
 
